@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cozy House</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <a class="logo" href="index.html">
+        <span class="logo__title">Cozy House</span>
+        <span class="logo__subtitle">Shelter for pets in Boston</span>
+      </a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#about">About the shelter</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#pets">Our pets</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#help">Help the shelter</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__burger" aria-label="Открыть меню">
+        <span></span>
+      </button>
+    </div>
+  </header>
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__container">
+      <div class="hero__description">
+        <h1 class="hero__title" id="hero-title">Not only people need a house</h1>
+        <p class="hero__subtitle">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see! </p>
+        <a class="button button--primary" href="#pets">Make a friend</a>
+      </div>
+      <div class="hero__media">
+        <img class="hero__image" src="assets/images/hero/dog-hero.jpg" alt="A dog with an intelligent look">
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about" aria-labelledby="about-title">
+    <div class="about__container">
+      <div class="about__media">
+        <img class="about__image" src="assets/images/about/about.jpg" alt="A dog and a cat sitting together">
+      </div>
+      <div class="about__description">
+        <h2 class="about__title" id="about-title">About the shelter</h2>
+        <p class="about__subtitle">Cozy House is a shelter for homeless animals in Boston. We have been working for more than 10 years and have already found a new home for more than 5000 dogs and cats. We are proud of our work and we are sure that every pet deserves to be loved and cared for.</p>
+        <p class="about__subtitle">We are always happy to see new volunteers and we are grateful to everyone who helps us. If you want to help us, please contact us or just come to our shelter. We will be glad to see you!</p>
+      </div>
+    </div>
+  </section>
+  <section class="pets" id="pets" aria-labelledby="pets-title">
+  <div class="pets__container">
+    <h2 class="pets__title" id="pets-title">
+      Our friends who are looking for a house</h2>
+    <div class="pets__slider">
+      <button class="pets__arrow pets__arrow--prev" type="button" aria-label="Previous pets">
+        ←
+      </button>
+      <div class="pets__track-wrapper">
+        <ul class="pets__track">
+          <li class="pets__slide">
+            <article class="pet-card">
+              <img class="pet-card__image" src="assets/images/pets/katrine.webp" alt="Katrine — grey cat">
+              <h3 class="pet-card__name">Katrine</h3>
+              <a class="button button--secondary" href="">Learn more</a>
+            </article>
+          </li>
+          <li class="pets__slide">
+            <article class="pet-card">
+              <img class="pet-card__image" src="assets/images/pets/jennifer.webp" alt="Jennifer — white puppy">
+              <h3 class="pet-card__name">Jennifer</h3>
+              <a class="button button--secondary" href="">Learn more</a>
+            </article>
+          </li>
+          <li class="pets__slide">
+            <article class="pet-card">
+              <img class="pet-card__image" src="assets/images/pets/woody.webp" alt="Woody — golden retriever">
+              <h3 class="pet-card__name">Woody</h3>
+              <a class="button button--secondary" href="">Learn more</a>
+            </article>
+          </li>
+        </ul>
+      </div>
+      <button class="pets__arrow pets__arrow--next" type="button" aria-label="Next pets">
+        →
+      </button>
+    </div>
+    <a class="button button--primary" href="pets.html">Get to know the rest</a>
+  </div>
+  </section>
+  <section class="help" id="help" aria-labelledby="help-title">
+    <div class="help__container">
+      <h2 class="help__title" id="help-title">How you can help our shelter</h2>
+      <ul class="help__list">
+        <li class="help__item">
+          <svg class="help__icon" aria-hidden="true" focusable="false">
+            <use href="assets/images/icons/sprite.svg#pet-food"></use>
+          </svg>
+          <span class="help__label">Pet food</span>
+        </li>
+        <li class="help__item">
+          <svg class="help__icon" aria-hidden="true" focusable="false">
+            <use href="assets/images/icons/sprite.svg#transportation"></use>
+          </svg>
+          <span class="help__label">Transportation</span>
+        </li>
+        <li class="help__item">
+          <svg class="help__icon" aria-hidden="true" focusable="false">
+            <use href="assets/images/icons/sprite.svg#toys"></use>
+          </svg>
+          <span class="help__label">Toys</span>
+        </li>
+        <li class="help__item">
+          <svg class="help__icon" aria-hidden="true" focusable="false">
+            <use href="assets/images/icons/sprite.svg#bowls-cups"></use>
+          </svg>
+          <span class="help__label">Bowls and cups</span>
+        </li>
+        <li class="help__item">
+          <svg class="help__icon" aria-hidden="true" focusable="false">
+            <use href="assets/images/icons/sprite.svg#shampoos"></use>
+          </svg>
+          <span class="help__label">Shampoos</span>
+        </li>
+        <li class="help__item">
+          <svg class="help__icon" aria-hidden="true" focusable="false">
+            <use href="assets/images/icons/sprite.svg#vitamins"></use>
+          </svg>
+          <span class="help__label">Vitamins</span>
+        </li>
+        <li class="help__item">
+          <svg class="help__icon" aria-hidden="true" focusable="false">
+            <use href="assets/images/icons/sprite.svg#medicines"></use>
+          </svg>
+          <span class="help__label">Medicines</span>
+        </li>
+        <li class="help__item">
+          <svg class="help__icon" aria-hidden="true" focusable="false">
+            <use href="assets/images/icons/sprite.svg#collars-leashes"></use>
+          </svg>
+          <span class="help__label">Collars / leashes</span>
+        </li>
+        <li class="help__item">
+          <svg class="help__icon" aria-hidden="true" focusable="false">
+            <use href="assets/images/icons/sprite.svg#sleeping-areas"></use>
+          </svg>
+          <span class="help__label">Sleeping areas</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="donate" id="donate" aria-labelledby="donate-title">
+    <div class="donate__container">
+      <div class="donate__media">
+        <img class="donate__image" src="assets/images/donate/donate.jpg" alt="A golden retriever puppy">
+      </div>
+      <div class="donate__description">
+        <h2 class="donate__title" id="donate-title">You can also make a donation</h2>
+        <p class="donate__bank">Name of the bank / Type of bank account</p>
+        <a class="donate__account" aria-label="Bank account number">
+          <svg class="donate__card-icon" aria-hidden="true" focusable="false">
+            <use href="assets/images/icons/sprite.svg#credit-card"></use>
+          </svg>
+          <span class="donate__number">8380 2880 8028 8791 7435</span>
+        </a>
+        <p class="donate__legal">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
