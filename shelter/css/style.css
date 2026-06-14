@@ -109,13 +109,7 @@ a {
  background-color: #211F20; /* запасной цвет если картинка не загрузится */
 }
 
-.header__container,
-.hero__container,
-.about__container,
-.pets__container,
-.help__container, 
-.donate__container,
-.footer__container {
+[class*="__container"] {
   max-width: var(--content-width);
   margin: 0 auto;
 }
@@ -194,7 +188,7 @@ a {
 .help__item {
   display: flex;
   flex-direction: column;
-  
+
 }
 /* ================================
    10. DONATE
